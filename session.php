@@ -1,5 +1,6 @@
 <?php
 include "dist/db.php";
+
 if (!isset($_SESSION['username'])) {
     die("
       <br><br><br><br>
